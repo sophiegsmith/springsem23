@@ -35,3 +35,10 @@ int hello2Function(string name2)
     cout << "Hello World " << name2 << endl; 
     return 0; 
 } 
+/*
+* Description:
+* This part of the lab's output will output hello world and my partner and i's names
+* Output: 
+Hello World Sophie Smith
+Hello World Souzen Khan
+*/
