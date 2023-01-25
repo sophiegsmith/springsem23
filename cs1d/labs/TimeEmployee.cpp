@@ -16,4 +16,6 @@ int main()
  
  return 0; 
 } 
- 
+/* Creates a new part time employee and prints their information. 
+
+ */
