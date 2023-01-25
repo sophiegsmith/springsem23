@@ -17,7 +17,7 @@ int hello1Function(string name1);
 int hello2Function(string name2); 
 int main() 
 { 
-    string name1 = "Sophie Smith"; 
+    string name1 = "Sophie Smith"
     hello1Function(name1); 
     string name2 = "Souzen Khan"; 
     hello2Function(name2); 
