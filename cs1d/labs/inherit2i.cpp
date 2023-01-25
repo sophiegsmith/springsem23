@@ -24,8 +24,13 @@ void personType::getName(string& first, string& last)
  
  //constructor with parameters 
 personType::personType(string first, string last) 
- 
 { 
  firstName = first; 
  lastName = last; 
 } 
+
+personType::personType()   //default constructor 
+{ firstName = ""; 
+ lastName = ""; 
+}
+
