@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-//program for binary search
+//program for binary search and example
 int binarySearch(int arr[], int n, int x) {
     int left = 0, right = n - 1;
     while (left <= right) {
