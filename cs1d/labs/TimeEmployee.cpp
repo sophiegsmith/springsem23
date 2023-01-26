@@ -8,12 +8,14 @@ using namespace std;
 int main() 
 { 
  personType newPerson; 
- partTimeEmployee newEmployee("John","Smith",7.50,56); 
+ partTimeEmployee newEmployee("Sophie","Smith",7.50,56); 
  partTimeEmployee employee; 
        newEmployee.print(); 
- employee.setNameRateHours("Rachel", "Moore",9.75, 45); 
+ employee.setNameRateHours("Souzen", "Khan",9.75, 45); 
  employee.print(); 
  
  return 0; 
 } 
- 
+/* Creates a new part time employee and prints their information. 
+
+ */

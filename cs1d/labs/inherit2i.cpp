@@ -6,16 +6,16 @@ using namespace std;
  
  
 void personType::print() const 
-{ 
+{ // prints the first and last name
  cout<<firstName<<" "<<lastName; 
 } 
- 
+ // setter for person name
 void personType::setName(string first, string last) 
 { 
  firstName = first; 
  lastName = last; 
 } 
- 
+// gettter for person name
 void personType::getName(string& first, string& last) 
 { 
  first = firstName; 
