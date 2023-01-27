@@ -13,9 +13,22 @@ using namespace std;
 
 //function prototype
 
-//main function
+//main function --> driver function
 int main()
 {
+    //declaring variables
+    string palindrome;      //user input for sentence that is/is not a palindrome
+
+
+    //get user input
+    cout << "Enter a word (exit to quit): " << endl;
+    cin >> palindrome;
+
+    //check if user wants to exit the program
+    if(palindrome == "exit")
+    {
+        system("clear");        //this will terminate the program
+    }
 
     return 0;
 } //end of main
